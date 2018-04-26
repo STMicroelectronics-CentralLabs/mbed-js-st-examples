@@ -9,9 +9,9 @@
   "author": "ST",
   "license": "Apache-2.0",
   "dependencies": {
-    "mbed-js-manager": "syed-zeeshan/mbed-js-manager",
-    "mbed-js-st-serial-interface": "syed-zeeshan/mbed-js-st-serial-interface",
-    "mbed-js-st-network-interface": "syed-zeeshan/mbed-js-st-network-interface"
+    "mbed-js-st-js-manager": "1.x",
+    "mbed-js-st-serial-interface": "1.x",
+    "mbed-js-st-network-interface": "1.x"
   },
   "devDependencies": {
     "mbed-js-gulp": "github:ARMmbed/mbed-js-gulp"
