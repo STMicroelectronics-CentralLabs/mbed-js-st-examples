@@ -19,4 +19,4 @@ npm install
 gulp --target=NUCLEO_F429ZI
 ```
 
-See build/out/NUCLEO_F429ZI/mbedos5.hex.
+Copy build/out/NUCLEO_F429ZI/mbedos5.bin to your target device.
