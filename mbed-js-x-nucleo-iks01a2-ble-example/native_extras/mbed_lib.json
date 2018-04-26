@@ -1,0 +1,21 @@
+{
+    "name": "mbed-js-x-nucleo-iks01a2-ble-example",
+    "target_overrides": {
+        "NUCLEO_F401RE": {
+            "esp8266-tx": "D8",
+            "esp8266-rx": "D2"
+        },
+        "NUCLEO_L476RG": {
+            "target.macros_add": [
+                "BLUENRG_STACK_MODE=2",
+                "SENSOR_TILE",
+			    "BLUENRG_PIN_SPI_MOSI=PA_7",
+                "BLUENRG_PIN_SPI_MISO=PA_6",
+                "BLUENRG_PIN_SPI_nCS=PB_2",
+                "BLUENRG_PIN_SPI_RESET=PH_0",
+                "BLUENRG_PIN_SPI_IRQ=PC_5",
+                "BLUENRG_PIN_SPI_SCK=PA_5"
+            ]	            
+        }	
+    }
+}

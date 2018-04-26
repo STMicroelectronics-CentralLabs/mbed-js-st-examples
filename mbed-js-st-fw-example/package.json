@@ -1,0 +1,19 @@
+{
+  "name": "mbed-js-st-fw-example",
+  "version": "1.0.0",
+  "description": "Example of loading JS firmware from flash",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ST",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-js-manager": "syed-zeeshan/mbed-js-manager",
+    "mbed-js-st-serial-interface": "syed-zeeshan/mbed-js-st-serial-interface",
+    "mbed-js-st-network-interface": "syed-zeeshan/mbed-js-st-network-interface"
+  },
+  "devDependencies": {
+    "mbed-js-gulp": "github:ARMmbed/mbed-js-gulp"
+  }
+}

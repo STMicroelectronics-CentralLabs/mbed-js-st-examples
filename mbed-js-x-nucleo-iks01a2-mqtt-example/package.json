@@ -1,0 +1,24 @@
+{
+  "name": "mbed-js-x-nucleo-iks01a2-mqtt-example",
+  "version": "1.0.0",
+  "description": "Example of using X-Nucleo-IKS01A2 with MQTT",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ST",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-js-devi2c": "syed-zeeshan/mbed-js-devi2c",
+    "mbed-js-spi": "syed-zeeshan/mbed-js-spi",
+    "mbed-js-hts221": "syed-zeeshan/mbed-js-hts221",
+    "mbed-js-lps22hb": "syed-zeeshan/mbed-js-lps22hb",
+    "mbed-js-lsm6dsl": "syed-zeeshan/mbed-js-lsm6dsl",
+    "mbed-js-lsm303agr": "syed-zeeshan/mbed-js-lsm303agr",
+    "mbed-js-st-network-interface": "syed-zeeshan/mbed-js-st-network-interface",
+    "mbed-js-mqtt": "syed-zeeshan/mbed-js-mqtt"
+  },
+  "devDependencies": {
+    "mbed-js-gulp": "github:ARMmbed/mbed-js-gulp"
+  }
+}
