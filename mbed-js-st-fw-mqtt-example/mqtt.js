@@ -13,7 +13,7 @@ function mqtt(){
             print("onSubscribe result: " + i);
             //sendByte();
         });
-        return self.mqtt.init('hsojbpev', '4H5vbg1KAhYi', 'm20.cloudmqtt.com', '10023');
+        return self.mqtt.init('username', 'password', 'address', 'port');
 
     }
     
