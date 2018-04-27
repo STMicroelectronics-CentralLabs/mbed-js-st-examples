@@ -20,3 +20,6 @@ gulp --target=NUCLEO_F429ZI
 ```
 
 Copy build/out/NUCLEO_F429ZI/mbedos5.bin to your target device.
+
+
+__where NUCLEO_F429ZI is an example of target device__
