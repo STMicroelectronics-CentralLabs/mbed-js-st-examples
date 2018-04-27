@@ -1,5 +1,5 @@
 # mbed-js-x-nucleo-iks01a2-ble-example
-Example project for using BLE and X-NUCLEO-IKS01A2 sensors expansion board.
+Example project for using BLE and X-NUCLEO-IKS01A2 sensors expansion board using Nucleo_F429ZI STM32 board (which can be replaced by other targets).
 
 ## Description
 This example project explains the following:
