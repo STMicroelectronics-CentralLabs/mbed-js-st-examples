@@ -5,13 +5,12 @@ Example project for using MQTT, Flash storage to store JS code and X-NUCLEO-IKS0
 This example project explains the following:
 * Use MQTT in Javascript
 * Use Flash storage to store Javascript source code which can be executed when the board is turned on.
-* Use X-NUCLEO-IKS01A2 expansion board for temperature, pressure and other environmental data in Javascript.
 
 ## To build:
 
 ```
-git clone https://github.com/ARMmbed/mbed-js-st-fw-mqtt-example
-cd mbed-js-st-fw-mqtt-example
+git clone https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples
+cd mbed-js-st-examples/mbed-js-st-fw-mqtt-example
 npm install
 gulp --target=NUCLEO_F429ZI
 ```
