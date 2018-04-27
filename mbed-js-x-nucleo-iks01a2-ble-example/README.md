@@ -20,17 +20,21 @@ See build/out/NUCLEO_F429ZI/mbedos5.bin.
 When you will try to build, you will receive errors building the project, it is because you have not defined a few parameters. Try the following tasks:
 ### * Configuration error
 To use X-Nucleo-IDB0XA1 BLE exansion, you have to configure the Nucleo board's SPI pins and add an extra label for ST_BLUENRG.
+
 Open build/jerryscript/targets/mbedos5/mbed_app.json and modify the file as follows (For example, Nucleo-F429ZI):
 
 ```
 {
-    "macros": ["JERRY_JS_PARSER 1"],
-    "target_overrides": {
-        "NUCLEO_F429ZI": {
-			"target.macros_add": ["BLUENRG_PIN_SPI_SCK=D13", "BLUENRG_PIN_SPI_MOSI=PB_5"],
-            "target.extra_labels_add": ["ST_BLUENRG"]
-        }
-    }
+	"macros": ["JERRY_JS_PARSER 1"],
+	"target_overrides": {
+		"NUCLEO_F429ZI": {
+			"target.macros_add": [
+				"BLUENRG_PIN_SPI_SCK=D13", 
+				"BLUENRG_PIN_SPI_MOSI=PB_5"
+			],
+        		"target.extra_labels_add": ["ST_BLUENRG"]
+        	}
+    	}
 }
 
 ```
