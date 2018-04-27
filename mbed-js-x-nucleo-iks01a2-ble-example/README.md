@@ -17,9 +17,9 @@ gulp --target=NUCLEO_F429ZI
 See build/out/NUCLEO_F429ZI/mbedos5.bin.
 
 ## Errors building:
-When you will try to build, you will receive errors building the project, it is because you have not defined a few parameters. Try the following tasks:
+When you will try to build, you might receive errors building the project or BLE doesn't work even if the project builds fine, it is because you have not defined a few parameters. Try the following tasks:
 ### * Configuration error
-To use X-Nucleo-IDB0XA1 BLE exansion or the BLE might not work even if you had no error, you have to configure the Nucleo board's SPI pins and add an extra label for ST_BLUENRG.
+To use X-Nucleo-IDB0XA1 BLE exansion, you have to configure the Nucleo board's SPI pins and add an extra label for ST_BLUENRG.
 
 Open build/jerryscript/targets/mbedos5/mbed_app.json and modify the file as follows (For example, Nucleo-F429ZI):
 
