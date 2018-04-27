@@ -3,8 +3,8 @@ Example project for using BLE and X-NUCLEO-IKS01A2 sensors expansion board.
 
 ## Description
 This example project explains the following:
-* Use X-NUCLEO-IKS01A2 expansion board for temperature, pressure and other environmental data in Javascript.
-* Use X-NUCLEO-IDB0XA1 BLE expansion board to send data.
+* Use [X-NUCLEO-IKS01A2](https://os.mbed.com/components/X-NUCLEO-IKS01A2/) expansion board for temperature, pressure and other environmental data in Javascript.
+* Use [X-NUCLEO-IDB0XA1](https://os.mbed.com/components/X-NUCLEO-IDB05A1-Bluetooth-Low-Energy/) BLE expansion board to send data.
 
 ## To build:
 
@@ -19,7 +19,7 @@ See build/out/NUCLEO_F429ZI/mbedos5.bin.
 ## Errors building:
 When you will try to build, you will receive errors building the project, it is because you have not defined a few parameters. Try the following tasks:
 ### * Configuration error
-To use X-Nucleo-IDB0XA1 BLE exansion, you have to configure the Nucleo board's SPI pins and add an extra label for ST_BLUENRG.
+To use X-Nucleo-IDB0XA1 BLE exansion or the BLE might not work even if you had no error, you have to configure the Nucleo board's SPI pins and add an extra label for ST_BLUENRG.
 
 Open build/jerryscript/targets/mbedos5/mbed_app.json and modify the file as follows (For example, Nucleo-F429ZI):
 
