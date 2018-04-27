@@ -1,7 +1,7 @@
 {
   "name": "mbed-js-st-fw-mqtt-example",
   "version": "1.0.0",
-  "description": "Example of using mbed-js-st-fw-mqtt library",
+  "description": "Example of using Serial port and MQTT for flashing firmware",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
