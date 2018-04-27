@@ -9,17 +9,17 @@
   "author": "ST",
   "license": "Apache-2.0",
   "dependencies": {
-    "mbed-js-devi2c": "syed-zeeshan/mbed-js-devi2c",
-    "mbed-js-spi": "syed-zeeshan/mbed-js-spi",
-    "mbed-js-hts221": "syed-zeeshan/mbed-js-hts221",
-    "mbed-js-lps22hb": "syed-zeeshan/mbed-js-lps22hb",
-    "mbed-js-lsm6dsl": "syed-zeeshan/mbed-js-lsm6dsl",
-    "mbed-js-lsm303agr": "syed-zeeshan/mbed-js-lsm303agr",
-    "mbed-js-st-manager": "syed-zeeshan/mbed-js-st-manager",
-    "mbed-js-st-serial-interface": "syed-zeeshan/mbed-js-st-serial-interface",
-    "mbed-js-st-network-interface": "syed-zeeshan/mbed-js-st-network-interface",
-    "mbed-js-st-fw-mqtt": "syed-zeeshan/mbed-js-st-fw-mqtt"
-  },
+    "mbed-js-st-devi2c": "^1.0.0",
+    "mbed-js-st-spi": "^1.0.0",
+    "mbed-js-st-hts221": "^1.0.0",
+    "mbed-js-st-lps22hb": "^1.0.0",
+    "mbed-js-st-lsm303agr": "^1.0.0",
+    "mbed-js-st-lsm6dsl": "^1.0.0", 
+    "mbed-js-st-js-manager": "^1.0.0",
+    "mbed-js-st-serial-interface": "^1.0.0",
+    "mbed-js-st-network-interface": "^1.0.0",
+    "mbed-js-st-mqtt": "^1.0.1"
+   },
   "devDependencies": {
     "mbed-js-gulp": "github:ARMmbed/mbed-js-gulp"
   }
