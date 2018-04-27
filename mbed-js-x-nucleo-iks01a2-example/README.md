@@ -10,7 +10,7 @@ This example project explains the following:
 ## To build:
 Example script for building the project for Nucleo-F429ZI board, replace it with your target board
 ```
-git clone https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples/mbed-js-x-nucleo-iks01a2-example
+git clone https://github.com/STMicroelectronics-CentralLabs/mbed-js-st-examples
 cd mbed-js-st-examples/mbed-js-x-nucleo-iks01a2-example
 npm install
 gulp --target=NUCLEO_F429ZI
