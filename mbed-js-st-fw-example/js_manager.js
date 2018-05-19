@@ -43,15 +43,19 @@ load_http_program = function(code){
 };
 
 gg = function(){
-    // Symbol / is causing problems sometimes in a string so we get it this way 
+    // Change the url if not.
+    print("Open js_manager.js file and edit the url from www.example.com/code.js to your url address.");
+    
+    // Symbol '/' is causing problems sometimes in a string so we get it this way 
     var s = String.fromCharCode(47);
     
-    var protocol =  'http:'; //http:' + '/' + '/' + 'www' + '.indigost' + '.com' + '/' + 'code.js';
+    var protocol =  'http:';
     var div = s + s;
-    var website = 'www.indigost.com';
+    var website = 'www.example.com';
     var file = 'code.js';
     var link = protocol + div + website + s + file;
-
+    // It is 'http:' + '//' + 'www.example.com' + '/' + 'code.js'
+    
     print('Opening: ' + link);
     var result = js_manager.load_http_program(link);
 
