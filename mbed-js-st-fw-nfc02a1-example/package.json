@@ -1,0 +1,21 @@
+{
+  "name": "mbed-js-st-fw-nfc02a1-example",
+  "version": "1.0.0",
+  "description": "Example of loading JS firmware from flash using nfc authentication",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ST",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "mbed-js-st-js-manager": "^1.0.0",
+    "mbed-js-st-serial-interface": "^1.0.0",
+    "mbed-js-st-network-interface": "^1.0.0",
+    "mbed-js-st-devi2c": "^1.0.0",
+    "mbed-js-st-x-nucleo-nfc02a1": "^1.0.0"
+  },
+  "devDependencies": {
+    "mbed-js-gulp": "github:ARMmbed/mbed-js-gulp"
+  }
+}
